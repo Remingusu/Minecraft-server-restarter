@@ -17,3 +17,5 @@ This file allows you to restart your Minecraft server (hosted locally), if it st
   5. Open 'config_file.py'. Modify {text_line} by the line recovered previously and launch it.
 
   6. In 'auto-run.py' change {number} to the number previously displayed.
+
+Your file is ready. All you have to do is launch it !
