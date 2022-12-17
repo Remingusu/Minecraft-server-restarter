@@ -14,4 +14,4 @@ while loop:
         print("Restarting the server")
         os.system('{command}')
 
-print("Complete server shutdown")*
+print("Complete server shutdown")
