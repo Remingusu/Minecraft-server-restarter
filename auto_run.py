@@ -1,17 +1,14 @@
 import os
 import time
 
-os.system('java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.80/unix_args.txt "$@"')
+os.system('{command}')
 
 loop = True
 while loop:
     time.sleep(2.5)
-    file = open(os.path.abspath('logs/latest.log'))
-    line = file.readlines()[-1]
-    file.close()
+    with open(os.path.abspath('logs/latest.log'), 'r') as file:
+        line = file.readlines()[-1]
     if line.find('Server shut down correctly, ending gracefully') == 79:
-        print("Redémarrage du serveur")
-        os.system('java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.80/unix_args.txt "$@"')
-    else:
-        loop = False
+        print("Restarting the server")
+        os.system('{command}')
 print("Arrêt complet du serveur")
