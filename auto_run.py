@@ -11,4 +11,4 @@ while loop:
     if line.find('{text_line}') == '{number}':
         print("Restarting the server")
         os.system('{command}')
-print("Arrêt complet du serveur")
+print("Complete server shutdown")
