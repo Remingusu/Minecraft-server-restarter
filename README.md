@@ -6,7 +6,7 @@ This file allows you to restart your Minecraft server (hosted locally), if it st
 
 *Configuration:*
 
-  1. Open 'auto-run.py'
+  1. Open [auto_run.py](auto_run.py) in a code/text editor
 
   2. Change {command} to the server command. --> Open **run.sh** or **run.bat** and Copy-Paste the last line (java @user_jvm...)
 
@@ -14,10 +14,10 @@ This file allows you to restart your Minecraft server (hosted locally), if it st
 
   4. Change {text_line} to the previously retrieved line
 
-  5. Open 'config_file.py'. Modify {text_line} by the line recovered previously and launch it.
+  5. Open [config_file.py](config_file.py). Modify {text_line} by the line recovered previously and launch it.
 
   6. In 'auto-run.py' change {number} to the number previously displayed.
 
-Your file is ready. All you have to do is launch it !
+Your files are ready. All you have to do is launch [auto_run.py](auto_run.py) !
 
 [![My Skills](https://skillicons.dev/icons?i=py,idea,github&theme=light)](https://skillicons.dev)
