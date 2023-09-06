@@ -19,3 +19,5 @@ This file allows you to restart your Minecraft server (hosted locally), if it st
   6. In 'auto-run.py' change {number} to the number previously displayed.
 
 Your file is ready. All you have to do is launch it !
+
+[![My Skills](https://skillicons.dev/icons?i=py,idea,github&theme=light)](https://skillicons.dev)
